@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    line-height: 0px;
+}
+
+.row div {
+    display: inline-block;
+    width: 40px;
+    height: 40px; 
+    border: 1px solid yellow
+}
+
+.row {
+    height: 40px; 
+}
+
+
+.brick {
+    background-color: grey;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+.coin {
+    background-image: url('imgs/coin.gif');
+    background-size: cover;
+    display: inline-block;
+}
+
+.cherry {
+    background-image: url('imgs/heart.gif');
+    background-size: cover;
+    display: inline-block;
+}
+
+.empty {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+#score {
+    border: 3px solid white;
+    color: white;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 445px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+#lives {
+    border: 3px solid white;
+    color: white;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 115px;
+    left: 445px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+#pacman {
+    display: inline-block;
+    background-image: url('imgs/ironman.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+#red {
+    display: inline-block;
+    background-image: url('imgs/red.gif');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
