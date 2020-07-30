@@ -74,8 +74,8 @@ function drawRed() {
 
 drawRed();
 
-function moveRed() {
-    
+function moveRed() { //the only I thing I could not figure out is how to move the ghost
+
 }
 
 
