@@ -75,18 +75,7 @@ function drawRed() {
 drawRed();
 
 function moveRed() {
-    if (world[red.y][red.x - 1] !== 0) {
-        red.x--;
-    }
-    if (world[red.x][red.y + 1] !== 0) {
-        red.x++;
-    }
-    if (world[red.y - 1][red.x] !== 0) {
-        red.y--;
-    }
-    if (world[red.y + 1][red.x] !== 0) {
-        red.y++;
-    }
+    
 }
 
 
